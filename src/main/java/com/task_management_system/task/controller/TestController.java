@@ -8,6 +8,7 @@ public class TestController {
 
     @GetMapping
     public String Something(){
+        System.out.println("Something went wrong");
         return  "ring";
     }
 }
